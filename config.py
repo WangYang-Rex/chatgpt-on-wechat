@@ -120,7 +120,7 @@ available_setting = {
     "baidu_translate_app_id": "",  # 百度翻译api的appid
     "baidu_translate_app_key": "",  # 百度翻译api的秘钥
     # itchat的配置
-    "hot_reload": False,  # 是否开启热重载
+    "hot_reload": True,  # 是否开启热重载
     # wechaty的配置
     "wechaty_puppet_service_token": "",  # wechaty的token
     # wechatmp的配置
@@ -169,9 +169,9 @@ available_setting = {
     "moonshot_api_key": "",
     "moonshot_base_url":"https://api.moonshot.cn/v1/chat/completions",
     # LinkAI平台配置
-    "use_linkai": False,
-    "linkai_api_key": "",
-    "linkai_app_code": "",
+    "use_linkai": True,
+    "linkai_api_key": "Link_gmgyu9JQpgKKOoI3RUpur6TdEz6ElcUTXttoVPtYhg",
+    "linkai_app_code": "jMrI6lvt",
     "linkai_api_base": "https://api.link-ai.tech",  # linkAI服务地址
 }
 
